@@ -1,0 +1,6 @@
+﻿services:
+  symmetricaltelegrambot:
+    image: symmetricaltelegrambot
+    build:
+      context: .
+      dockerfile: SymmetricalTelegramBot/Dockerfile
